@@ -263,7 +263,7 @@
         background-color: whitesmoke;
         border: goldenrod 3px solid;
         border-radius: 15px;
-        height: 69vh;
+        height: 85vh;
         width: 70%;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         transform: translateZ(80px); 
@@ -274,7 +274,7 @@
     .price-empresarial{
         background-color: whitesmoke;
         border-radius: 10px;
-        height: 65vh;
+        height: 80vh;
         width: 70%;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         transform: translateZ(80px); 
@@ -285,7 +285,7 @@
     .price-basico{
         background-color: whitesmoke;
         border-radius: 10px;
-        height: 51vh;
+        height: 80vh;
         width: 70%;
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         transform: translateZ(80px); 
