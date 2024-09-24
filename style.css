@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*header*/
+
+header{
+    height: 10vh;
+    width: 100%;
+    background-color: lightgrey;
+}
+
+/*Fim do header*/
+
+/* Body*/
+
+/*Todos os titulos*/
+h1{
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+
+}
+/*Box dos titulos*/
+.PRO{
+    position: sticky;
+    background-color: black;
+    color: goldenrod;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: translateZ(80px); 
+    transition: transform 0.5s;
+}
+
+.Empr{
+    background-color: darkgoldenrod;
+    color: black;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: translateZ(80px); 
+    transition: transform 0.5s;
+}
+
+.Bas{
+    background-color: whitesmoke;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: translateZ(80px); 
+    transition: transform 0.5s;
+}
+
+/*Box para os preços*/
+
+h2{
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+}
+
+/*Ajustando a ordem dos boxers*/
+
+.price-empresarial{
+    order: 1;
+}
+
+.price-pro{
+    order: 2;
+}
+
+.price-basico{
+    order: 3;
+}
+
+/*Corpo-parte Principal*/
+
+.box-main{
+    width: 99.5%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+/*Hover das boxes*/
+
+.price-pro:hover,
+.price-empresarial:hover{
+    transform: scale(1.10);
+}
+
+
+.price-pro button:hover,
+.price-empresarial button:hover,
+.price-basico button:hover{
+    background-color: green;
+    color: whitesmoke;
+}
+/*Style e posição dos botões*/
+
+.btn-send{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.price-pro button{
+    background-color: black;
+    font-size: 20px;
+    color: goldenrod;
+    border-radius: 15px;
+    width: 30vw;
+    height: 4vh;
+}
+
+.price-empresarial button{
+    background-color: goldenrod;
+    font-size: 20px;
+    color: black;
+    border-radius: 15px;
+    width: 30vw;
+    height: 4vh;
+}
+
+.price-basico button{
+    background-color: whitesmoke;
+    font-size: 20px;
+    color: black;
+    border-radius: 15px;
+    width: 30vw;
+    height: 4vh;
+}
+
+/*Padding das boxes*/
+
+.price-pro, 
+.price-empresarial,
+.price-basico{
+    padding: 20px;
+}
+
+
+/*boxes*/
+.price-pro{
+    background-color: whitesmoke;
+    border: goldenrod 3px solid;
+    border-radius: 15px;
+    height: 53vh;
+    width: 20vw;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: translateZ(80px); 
+    transition: transform 0.5s;
+    
+}
+
+.etiqueta {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: goldenrod;
+    color: #000;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 5px;
+    transform: rotate(-10deg);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.highlight-text {
+    background-color:darkgoldenrod;
+    color:white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+li{
+    margin-left: 10px;
+    padding: 3px;
+}
+
+.price-empresarial{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    height: 48vh;
+    width: 20vw;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: translateZ(80px); 
+    transition: transform 0.5s;
+
+}
+
+.price-basico{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    height: 48vh;
+    width: 20vw;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transform: translateZ(80px); 
+    transition: transform 0.5s;
+}
+
+
+/*Fim do Body*/
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    background-color: lightgrey;
+}

@@ -1,0 +1,340 @@
+@media (max-width:1280px){
+
+    h1{
+        font-size: 80px;
+    }
+   
+
+    .box-main{
+        flex-direction: column;
+        align-items: center;
+        height: 250vh;
+        justify-content: space-around;
+       
+    }
+
+    .price-pro{
+        height: 76vh;
+        width: 67vw;
+        border: 5px goldenrod solid;
+        font-size: 30px;
+        order: 1;
+    }
+
+    .price-empresarial{
+        font-size: 30px;
+        height: 63vh;
+        width: 70vw;
+
+    }
+
+    .price-basico{
+        font-size: 30px;
+        height: 57vh;
+        width: 70vw;
+
+    }
+
+
+    .etiqueta{
+        top: -25px;
+        left: -25px;
+        background-color: goldenrod;
+        color: #000;
+        padding: 5px 10px;
+        font-size: 30px;
+        font-weight: bold;
+        border-radius: 5px;
+        transform: rotate(-10deg);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .highlight-text {
+        background-color: darkgoldenrod;
+        color:white;
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    li{
+        margin-left: 20px;
+        padding: 3px;
+    }
+
+ 
+
+    .btn-send{
+        display: flex;
+        justify-content: center;
+    }
+    
+    button{
+        background-color: green;
+        color: white;
+        border-radius: 15px;
+        font-size: 30px;
+        width: 30vw;
+        height: 3vh;
+    }
+
+}
+
+@media (max-width:768px){
+    
+
+    .box-main{
+        flex-direction: column;
+        align-items: center;
+        height: 260vh;
+        justify-content: space-around;
+    }
+
+    .price-pro{
+        height: 86vh;
+        order: 1;
+    }
+
+    .price-empresarial{
+        height: 79vh;
+    }
+
+    .price-basico{
+        height: 70vh;
+    }
+
+    .btn-send{
+        display: flex;
+        justify-content: center;
+    }
+    
+    button{
+        background-color: green;
+        color: white;
+        border-radius: 15px;
+        font-size: 30px;
+        width: 30vw;
+        height: 4vh;
+    }
+
+}
+
+@media(max-width:550px){
+    body{
+        width: 100%;
+    }
+
+    header{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    .highlight-text {
+        background-color: darkgoldenrod;
+        color:white;
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+   
+    .box-main{
+        display: flex;
+        margin-top: 5vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 240vh;
+    }
+    .price-pro{
+        font-size: 17px;
+        height: 65vh;
+    }
+
+    .price-empresarial{
+        height: 59vh;
+        font-size: 17px;
+    }
+
+    .price-basico{
+        height: 55vh;
+        font-size: 17px;
+    }
+
+    .btn-send{
+        display: flex;
+        justify-content: center;
+    }
+    
+    button{
+        background-color: green;
+        color: white;
+        border-radius: 15px;
+        font-size: 15px;
+        width: 30vw;
+        height: 4vh;
+    }
+    
+}
+
+@media (max-width: 430px) {
+    body{
+        width: 100%;
+    }
+
+    header{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    .highlight-text {
+        background-color: darkgoldenrod;
+        color:white;
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+   
+    .box-main{
+        display: flex;
+        margin-top: 5vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 240vh;
+    }
+    .price-pro{
+        font-size: 17px;
+        height: 65vh;
+    }
+
+    .price-empresarial{
+        height: 59vh;
+        font-size: 17px;
+    }
+
+    .price-basico{
+        height: 50vh;
+        font-size: 17px;
+    }
+
+    .btn-send{
+        display: flex;
+        justify-content: center;
+    }
+    
+    button{
+        background-color: green;
+        color: white;
+        border-radius: 15px;
+        font-size: 15px;
+        width: 30vw;
+        height: 4vh;
+    }
+}
+
+@media (max-width:400px) {
+    body{
+        width: 100%;
+    }
+
+    header{
+        width: 100%;
+    }
+
+    .box-main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 220vh;
+    }
+
+    .price-pro{
+        background-color: whitesmoke;
+        border: goldenrod 3px solid;
+        border-radius: 15px;
+        height: 69vh;
+        width: 70%;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        transform: translateZ(80px); 
+        transition: transform 0.5s;
+        
+    }
+
+    .price-empresarial{
+        background-color: whitesmoke;
+        border-radius: 10px;
+        height: 65vh;
+        width: 70%;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        transform: translateZ(80px); 
+        transition: transform 0.5s;
+    
+    }
+
+    .price-basico{
+        background-color: whitesmoke;
+        border-radius: 10px;
+        height: 51vh;
+        width: 70%;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        transform: translateZ(80px); 
+        transition: transform 0.5s;
+    }
+}
+
+@media (max-width:380px) {
+    body{
+        width: 100%;
+    }
+
+    .box-main{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 260vh;
+    }
+
+    .price-pro{
+        background-color: whitesmoke;
+        border: goldenrod 3px solid;
+        border-radius: 15px;
+        height: 85vh;
+        width: 70%;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        transform: translateZ(80px); 
+        transition: transform 0.5s;
+        
+    }
+
+    .price-empresarial{
+        background-color: whitesmoke;
+        border-radius: 10px;
+        height: 81vh;
+        width: 70%;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        transform: translateZ(80px); 
+        transition: transform 0.5s;
+    
+    }
+
+    .price-basico{
+        background-color: whitesmoke;
+        border-radius: 10px;
+        height: 65vh;
+        width: 70%;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        transform: translateZ(80px); 
+        transition: transform 0.5s;
+    }
+}
