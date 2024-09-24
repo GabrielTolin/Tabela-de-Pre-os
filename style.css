@@ -75,7 +75,7 @@ h2{
 
 .box-main{
     width: 99.5%;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -146,7 +146,7 @@ h2{
     background-color: whitesmoke;
     border: goldenrod 3px solid;
     border-radius: 15px;
-    height: 53vh;
+    height: 75vh;
     width: 20vw;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     transform: translateZ(80px); 
@@ -186,7 +186,7 @@ li{
 .price-empresarial{
     background-color: whitesmoke;
     border-radius: 10px;
-    height: 48vh;
+    height: 62vh;
     width: 20vw;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     transform: translateZ(80px); 
@@ -197,7 +197,7 @@ li{
 .price-basico{
     background-color: whitesmoke;
     border-radius: 10px;
-    height: 48vh;
+    height: 55vh;
     width: 20vw;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     transform: translateZ(80px); 
